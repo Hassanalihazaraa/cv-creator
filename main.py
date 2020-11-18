@@ -2,6 +2,8 @@ from docx import Document
 
 document = Document()
 
+document.add_picture('img.jpg')
+
 name = input('What is your name? ')
 phone_number = input(' What is your phone number? ')
 email = input('What is your email address? ')
