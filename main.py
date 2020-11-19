@@ -58,7 +58,6 @@ experience_details = input('Describe your experience at ' + company + ' ')
 # more experiences
 while True:
     has_more_experiences = input('Do you have more experiences? Yes or No ')
-    speak(has_more_experiences + 'if yes enter it below else just write no')
     if has_more_experiences.lower() == 'yes':
         p = document.add_paragraph()
         company = input('Enter a company name ')
@@ -83,7 +82,6 @@ p.style = 'List Bullet'
 
 while True:
     has_more_skills = input('Do you have more skills? Yes or No ')
-    speak(has_more_skills + 'if yes enter it below else just write no')
     if has_more_skills.lower() == 'yes':
         skill = input('Enter a skill ')
         p = document.add_paragraph(skill)
