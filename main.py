@@ -53,6 +53,8 @@ p.add_run(from_date + '-' + to_date + '\n').italic = True
 
 speak('Describe your experience at ' + company + ' ')
 experience_details = input('Describe your experience at ' + company + ' ')
+
+
 # more experiences
 while True:
     has_more_experiences = input('Do you have more experiences? Yes or No ')
